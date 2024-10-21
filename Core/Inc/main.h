@@ -69,12 +69,16 @@ void Error_Handler(void);
 #define LED_2_GPIO_Port GPIOA
 #define ENC_B_Pin GPIO_PIN_5
 #define ENC_B_GPIO_Port GPIOA
+#define ENC_B_EXTI_IRQn EXTI4_15_IRQn
 #define ENC_A_Pin GPIO_PIN_6
 #define ENC_A_GPIO_Port GPIOA
+#define ENC_A_EXTI_IRQn EXTI4_15_IRQn
 #define BUTTON_1_Pin GPIO_PIN_7
 #define BUTTON_1_GPIO_Port GPIOA
+#define BUTTON_1_EXTI_IRQn EXTI4_15_IRQn
 #define BUTTON_2_Pin GPIO_PIN_9
 #define BUTTON_2_GPIO_Port GPIOA
+#define BUTTON_2_EXTI_IRQn EXTI4_15_IRQn
 #define RST_Pin GPIO_PIN_10
 #define RST_GPIO_Port GPIOA
 
